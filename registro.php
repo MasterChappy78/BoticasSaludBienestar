@@ -144,13 +144,12 @@
               class="mt-1 block w-full rounded-md border border-gray-300 shadow-sm p-2 text-sm focus:ring focus:ring-indigo-300" required />
           </div>
 
-          <div class="flex justify-between mt-6">
-            <button type="reset" class="bg-yellow-200 text-gray-700 px-4 py-2 rounded hover:bg-yellow-300 transition">Descartar</button>
-            <button type="submit" class="bg-yellow-200 text-gray-700 px-4 py-2 rounded hover:bg-yellow-300 transition">Finalizar / Guardar</button>
-          </div>
-        </form>
+      <div class="flex justify-between mt-6">
+        <a href="inventario.php" class="bg-yellow-200 text-gray-700 px-4 py-2 rounded hover:bg-yellow-300 transition">Descartar</a>
+        <button type="submit" class="bg-yellow-200 text-gray-700 px-4 py-2 rounded hover:bg-yellow-300 transition">Finalizar / Guardar</button>
       </div>
-    </div>
-  </body>
+    </form>
+  </div>
+</body>
 
   </html>
